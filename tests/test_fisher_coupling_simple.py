@@ -3,7 +3,7 @@ Simple unit tests for fisher_coupling.py using synthetic data.
 """
 import torch
 import torch.nn.functional as F
-from src.attention_loss import compute_attention
+from attention_loss import compute_attention
 
 def compute_fisher_coupling_simple(W_Q, W_K, W_V, X, target_A, n_embd, n_head=4):
     """
