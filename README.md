@@ -6,8 +6,7 @@
 *Attention-aware, second-order sensitivity analysis for adaptive bit allocation in GPT-2 and Mistral-7B*
 
 [![Python](https://img.shields.io/badge/python-3.11%2B-blue?logo=python&logoColor=white)](#prerequisites)
-[![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-EE4C2C?logo=pytorch&logoColor=white)](#prerequisites)
-[![License](https://img.shields.io/badge/license-MIT-green)](#license)
+[![PyTorchttps://img.shields.io/badge/PyTorch-2.0%2B-EE4C2C?logo=pytorch&logoColor=white)](#prerequisites)
 [![Status](https://img.shields.io/badge/status-research--in--progress-orange)](#roadmap)
 
 Nafiseh Hosseinpourfardi · Negar Alihadi
@@ -30,21 +29,27 @@ Because the softmax couples `W_Q`, `W_K`, and `W_V` nonlinearly, small per-matri
 
 ## Table of Contents
 
-- [Motivation](#motivation)
-- [Core Idea](#core-idea)
-- [Repository Structure](#repository-structure)
-- [Methodology](#methodology)
-  - [1. Attention-Aware Joint Quantization](#1-attention-aware-joint-quantization)
-  - [2. Importance / Sensitivity Criteria](#2-importance--sensitivity-criteria)
-  - [3. Adaptive Mixed-Precision Allocation](#3-adaptive-mixed-precision-allocation)
-- [Experimental Setup](#experimental-setup)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Evaluation Metrics](#evaluation-metrics)
-- [Related Work](#related-work)
-- [Roadmap](#roadmap)
-- [Citation](#citation)
-- [References](#references)
+- [JAB-Hessian](#jab-hessian)
+    - [Joint Attention-Block Hessian for Mixed-Precision Quantization of Transformer Models](#joint-attention-block-hessian-for-mixed-precision-quantization-of-transformer-models)
+  - [Abstract](#abstract)
+  - [Table of Contents](#table-of-contents)
+  - [Motivation](#motivation)
+  - [Core Idea](#core-idea)
+  - [Repository Structure](#repository-structure)
+  - [Methodology](#methodology)
+    - [1. Attention-Aware Joint Quantization](#1-attention-aware-joint-quantization)
+    - [2. Importance / Sensitivity Criteria](#2-importance--sensitivity-criteria)
+    - [3. Adaptive Mixed-Precision Allocation](#3-adaptive-mixed-precision-allocation)
+  - [Experimental Setup](#experimental-setup)
+  - [Installation](#installation)
+    - [Prerequisites](#prerequisites)
+    - [2. Run the uniform-precision baseline](#2-run-the-uniform-precision-baseline)
+    - [3. Explore interactively](#3-explore-interactively)
+    - [Customization](#customization)
+  - [Evaluation Metrics](#evaluation-metrics)
+  - [Related Work](#related-work)
+  - [Roadmap](#roadmap)
+  - [References](#references)
 
 ---
 
