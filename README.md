@@ -6,7 +6,7 @@
 *Attention-aware, second-order sensitivity analysis for adaptive bit allocation in GPT-2 and Mistral-7B*
 
 [![Python](https://img.shields.io/badge/python-3.11%2B-blue?logo=python&logoColor=white)](#prerequisites)
-[![PyTorchttps://img.shields.io/badge/PyTorch-2.0%2B-EE4C2C?logo=pytorch&logoColor=white)](#prerequisites)]
+[![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-EE4C2C?logo=pytorch&logoColor=white)](#prerequisites)
 [![Status](https://img.shields.io/badge/status-research--in--progress-orange)](#roadmap)
 
 Nafiseh Hosseinpourfardi · Negar Alihadi
