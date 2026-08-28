@@ -1,7 +1,6 @@
 <div align="center">
 
-# JAB-Hessian
-### Joint Attention-Block Hessian for Mixed-Precision Quantization of Transformer Models
+### Attention-Aware Joint Mixed-Precision Quantization of Transformer Models
 
 *Attention-aware, second-order sensitivity analysis for adaptive bit allocation in GPT-2 and Mistral-7B*
 
@@ -29,27 +28,25 @@ Because the softmax couples `W_Q`, `W_K`, and `W_V` nonlinearly, small per-matri
 
 ## Table of Contents
 
-- [JAB-Hessian](#jab-hessian)
-    - [Joint Attention-Block Hessian for Mixed-Precision Quantization of Transformer Models](#joint-attention-block-hessian-for-mixed-precision-quantization-of-transformer-models)
-  - [Abstract](#abstract)
-  - [Table of Contents](#table-of-contents)
-  - [Motivation](#motivation)
-  - [Core Idea](#core-idea)
-  - [Repository Structure](#repository-structure)
-  - [Methodology](#methodology)
-    - [1. Attention-Aware Joint Quantization](#1-attention-aware-joint-quantization)
-    - [2. Importance / Sensitivity Criteria](#2-importance--sensitivity-criteria)
-    - [3. Adaptive Mixed-Precision Allocation](#3-adaptive-mixed-precision-allocation)
-  - [Experimental Setup](#experimental-setup)
-  - [Installation](#installation)
-    - [Prerequisites](#prerequisites)
-    - [2. Run the uniform-precision baseline](#2-run-the-uniform-precision-baseline)
-    - [3. Explore interactively](#3-explore-interactively)
-    - [Customization](#customization)
-  - [Evaluation Metrics](#evaluation-metrics)
-  - [Related Work](#related-work)
-  - [Roadmap](#roadmap)
-  - [References](#references)
+- [Abstract](#abstract)
+- [Table of Contents](#table-of-contents)
+- [Motivation](#motivation)
+- [Core Idea](#core-idea)
+- [Repository Structure](#repository-structure)
+- [Methodology](#methodology)
+  - [1. Attention-Aware Joint Quantization](#1-attention-aware-joint-quantization)
+  - [2. Importance / Sensitivity Criteria](#2-importance--sensitivity-criteria)
+  - [3. Adaptive Mixed-Precision Allocation](#3-adaptive-mixed-precision-allocation)
+- [Experimental Setup](#experimental-setup)
+- [Installation](#installation)
+  - [Prerequisites](#prerequisites)
+  - [2. Run the uniform-precision baseline](#2-run-the-uniform-precision-baseline)
+  - [3. Explore interactively](#3-explore-interactively)
+  - [Customization](#customization)
+- [Evaluation Metrics](#evaluation-metrics)
+- [Related Work](#related-work)
+- [Roadmap](#roadmap)
+- [References](#references)
 
 ---
 
