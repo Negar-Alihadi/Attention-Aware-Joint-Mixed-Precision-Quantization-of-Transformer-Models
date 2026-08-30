@@ -128,7 +128,7 @@ jab-hessian-quantization/
     └── Test JAB-Hessian on all blocks.py
 ```
 
-> 📌 The `src/` and `tests/` directories reflect the modular files of the project; the `notebooks/` directory preserves the full experimental history, including the GPT-2 → Mistral-7B generalization runs.
+> 📌 The `src/` and `tests/` directories reflect the modular files of the project; the `notebooks/` directory preserves the full experimental history, including the GPT-2 → Mistral-7B generalization runs. ***For the final version of notebooks, please refer to the `final version notebooks/` directory***.
 
 ---
 
